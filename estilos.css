@@ -1,0 +1,456 @@
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #dbdbdb;
+  padding: 14px;
+}
+.simboloinstagram {
+  display: flex;
+  justify-content: space-between;
+}
+.simbolomaior {
+  width: 19.25px;
+  height: 19.25px;
+  position: relative;
+  z-index: 2;
+}
+.simbolomenor {
+  width: 11.23px;
+  height: 11.23px;
+  padding: 3.21px 4.81px 3.21px 4.81px;
+  position: absolute;
+  z-index: 1;
+}
+.linhavertical {
+  width: 1px;
+  height: 22px;
+  margin-left: 10px;
+}
+.logo {
+  width: 103px;
+  height: 29px;
+  margin-left: 10px;
+}
+.pesquisa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retangulo{
+  position: relative;
+}
+.pesquisar{
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
+  color: #979797;  
+}
+
+.simbolos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  
+}
+.setinha{
+  width: 17.87px;
+  height: 17.87px;
+  margin-left: 10px;
+}
+.bussolavetor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  
+}
+.bussola{
+  position: absolute;
+  width: 16.5px;
+  height: 16.5px;
+}
+.vetor{
+  position: relative;
+  width: 9.08px;
+  height:9.08px;
+  padding-bottom: 6.46px;
+
+
+}
+.coracao{
+  width: 16.5px;
+  height: 15.13px;
+  margin-left: 10px;
+
+}
+.usuario{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-left: 10px;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+.esquerda{
+  display: flex;
+  flex-direction: column;
+    
+}
+.paginas{
+  display: flex;
+  border: 1px solid #DBDBDB;
+  
+}
+
+.posicaodaspaginas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7.8px;
+  
+}
+.imagensdaspaginas{
+  display: flex;
+  
+  
+}
+
+.imagens{
+  position: relative;
+  padding: 5px;
+  z-index: 1;
+}
+.imagensdamemeria{
+  position: relative;
+  padding: 3px;
+  z-index: 1;
+  
+}
+
+.imagensmemeria{
+  position: absolute;
+  
+}
+.imagemsetinha{
+  position: absolute;
+  padding-top: 30px;
+  z-index: 1;
+}
+
+.imageminstagram{
+  position: absolute;
+
+}
+
+.textodaspaginas{
+  font-size: 12px;
+}
+
+.feed{
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  border: 1px solid #DBDBDB;;
+  padding-bottom: 14px;
+}
+.itens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+}
+.descricao{
+  display: flex;
+  align-content:space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.textodosfeeds{
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-weight: bold;
+}
+.imagemgatotelefone{
+  width: 612px;
+  height: 612px;
+}
+.icones{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.iconesdosfeeds{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 14px 17px 14px 17px;
+}
+.curtida{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 17px;
+  
+}
+.textodascurtidas{
+  font-size: 14px;
+  font-weight: bold;
+}
+.direita{
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin-left: 10px;
+}
+.catanacomics{
+  display: flex;
+  align-items: center;  
+  margin-bottom: 17px;
+}
+.descricaocatanacomics{
+  margin-left: 17px;
+}
+.sugestoes{
+  margin-bottom: 17px;
+  color: #8E8E8E;
+}
+.memes{
+  display: flex;
+  justify-content: space-between;
+}
+.memesesquerda{
+  display: flex;
+  margin-bottom: 16px;
+}
+.descricaodosmemes{
+  margin-left: 17px;
+}
+.todososmemes{
+  display: flex;
+}
+.linha1{
+  font-weight: bold;
+  font-size: 14px;
+}
+.linha2{
+  font-weight: 300;
+  font-size: 12px;
+}
+.seguir{
+  margin-left: 70px;
+  font-size: 12px;
+  text-align: right;
+}
+.distanciavertudo{
+  margin-bottom: 28px;
+  color: #262626;
+  font-weight: bold;
+}
+.distanciaseguir{
+  margin-bottom: 33px;
+  color: #139EF2;
+}
+.distanciaseguirultimo{
+  color: #139EF2;
+}
+.observacoes{
+  margin-top: 42px;
+  font-size: 11px;
+  color: #C7C7C7;
+}
+.definicao{
+  margin-top: 18px;
+  font-size: 11px;
+  color:#C7C7C7
+}
+.menu-mobile{
+  display: none;
+}
+.fundo-mobile{
+  display: none;
+}
+.rectanglemobile{
+  position:absolute;
+}
+.bolinhamais{
+  position: absolute;
+  padding-right:2.5px;
+}
+.mais{
+  position: relative;
+  padding-left: 3.5px;
+  padding-top: 3px;
+}
+.itensmobile{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.usuariomobile{
+  display: flex;
+  flex-direction: column;
+}
+.home{
+  margin: left 80px;
+}
+.lupa{
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.lupinha{
+  width: 13.5px;
+  height: 13.5px;
+  
+
+}
+
+.adicionar{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+;
+  
+}
+.coracaomobile{
+  margin-left: 80px;
+}
+.usuariomobile{
+  margin-left: 80px;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 935px) {
+ 
+  .menu-desktop-semsidebar{
+    display:flex
+  }
+  .direita{
+    display: none;
+  }
+  .paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 612px) {
+  .menu{
+    display: none;
+  }
+  .menu-desktop-semsidebar{
+    display: none;
+  }
+  .menu-mobile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+  }
+  .direita{
+    display: none;
+  }
+ 
+  .esquerda{
+    display: flex;
+    justify-content: center;
+  }
+  .feed{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .itens{
+    justify-content: space-between;
+  }
+  .trespontos{
+    padding-right: 30px;
+  }
+ 
+  
+  .descricao{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .paginas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    
+  }
+  .posicaodaspaginas{
+    display: flex;
+    width: 100%;
+    padding: 0px;
+  }
+  .icones{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .iconesdosfeeds{
+    display: flex;
+    justify-content: space-around;
+    padding-left:1px;
+    padding-right: 1px;
+    width: 100%;
+  }
+  .curtida{
+    width: 100%;
+    padding-left: 30px;
+  }
+  .imagemsetinha{
+    display: none;
+    
+  }
+
+  .fundo-mobile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 40px;
+  }
+  .divisoria{
+    display: none;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
